@@ -12,7 +12,7 @@
 	(Após o Enter será necessário a senha escolhida durante a instalação)
 
 	mysql>
-	Comandos do mysql aqui já são aceitos
+	Comandos do mysql já são aceitos aqui
 
 	EX: CREATE DATABASE teste;
 
@@ -65,7 +65,7 @@ int main()
 	//Inserir
 	/*
 	*/
-	int res = mysql_query(&conexao, "INSERT INTO aprendendo(nome, sexo) values('Alexa Alves', 'M');");
+	int res = mysql_query(&conexao, "INSERT INTO aprendendo(nome, sexo) values('Alexandre Alves', 'M');");
 	if (res == 0)
 	{
 		cout<<"Dados Inseridos"<<endl;
