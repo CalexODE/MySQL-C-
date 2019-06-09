@@ -18,7 +18,8 @@
 
 	Crie antes um Database com o nome "teste" e mude os defines para se adaptar
 	aos seus dados como a senha que você escolheu para seu usuário do DB
-	
+
+	Logo em seguida uma TABLE com nome "aprendendo" com os campos nome varchar(30) e sexo char(1)
 	
 	Para instalar a biblioteca mysql, necessária para manipulação no C++:
 	$ sudo apt-get install libmysql++-dev
